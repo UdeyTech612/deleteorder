@@ -1,6 +1,6 @@
-# Udeytech FreeSamplePage
+# Udeytech DeleteOrder
 
-    ``udeytech/module-facebookpixel``
+    ``udeytech/module-deleteorder``
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
@@ -10,7 +10,7 @@
 
 
 ## Main Functionalities
-Facebook Pixel Extentions
+Delete Order Extentions
 
 ## Installation
 \* = in production please use the `--keep-generated` option
@@ -18,7 +18,7 @@ Facebook Pixel Extentions
 ### Type 1: Zip file
 
  - Unzip the zip file in `app/code/Udeytech`
- - Enable the module by running `php bin/magento module:enable Udeytech_FacebookPixel`
+ - Enable the module by running `php bin/magento module:enable Udeytech_DeleteOrder`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
@@ -29,8 +29,8 @@ Facebook Pixel Extentions
     - public repository `packagist.org`
     - public github repository as vcs
  - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
- - Install the module composer by running `composer require udeytech/module-facebookpixel`
- - enable the module by running `php bin/magento module:enable Udeytech_FacebookPixel`
+ - Install the module composer by running `composer require udeytech/module-deleteorder`
+ - enable the module by running `php bin/magento module:enable Udeytech_DeleteOrder`
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
