@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+  ~ /**
+  ~  * Copyright (c) 2021. Udeytech Technologies All rights reserved.
+  ~  * See COPYING.txt for license details.
+  ~  */
+  -->
+
+<!--suppress ALL -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Udeytech_DeleteOrder::Udeytech_delete_order" title="Udeytech Commerce" sortOrder="100">
+                    <resource id="Udeytech_DeleteOrder::delete_order" title="Delete Order" sortOrder="80"/>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
